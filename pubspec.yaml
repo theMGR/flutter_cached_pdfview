@@ -19,7 +19,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_pdfview: ">=1.0.0 <2.0.0"
+  #flutter_pdfview: ">=1.0.0 <2.0.0"
+  flutter_pdfview:
+    git:
+      url: https://github.com/theMGR/flutter_pdfview.git
   flutter_cache_manager: ">=3.0.0 <4.0.0"
   path_provider: ">=2.0.0 <3.0.0"
   path: ">=1.0.0 <2.0.0"
